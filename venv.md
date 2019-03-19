@@ -1,4 +1,4 @@
-# How to move your Python project from one device to another
+# How to move Python project from one device to another
 
 Let's assume you have created and developed Python project on Device 1 and you want to make it work somewhere else Device 2. In my case I have:
 - created a project in my cozy PyCharm IDE on a laptop 
@@ -7,7 +7,7 @@ Let's assume you have created and developed Python project on Device 1 and you w
 But the routine is the same for all other cases. 
 
 ## Device 1:
-During the creation of the project in PyCharm you can set up a virtual env through GUI or add it in the Project settings menu. If you are using something less user-friendly, e.x. text editors (or maybe even Vim and you do know how to exit it) for your development you can create a virtual environment on your own from scratch:
+During the creation of the project in PyCharm you can set up a virtual env through GUI or add it in the Project settings menu. If you are using something less user-friendly, e.x. text editors (or maybe even Vim and you know how to exit it) you can create a virtual environment on your own from scratch:
 ```bash
 # 1) Check that you have pip, it should have been installed with Python. 
 pip --version # alternatively you can run pip3 everywhere instead of pip

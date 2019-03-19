@@ -4,7 +4,7 @@ Let's assume you have created and developed Python project on Device 1 and you w
 - created a project in my cozy PyCharm IDE on a laptop 
 - made it run on Raspberry Pi
 
-But the routine is the same for all other cases. 
+The routine is the same for all other cases. 
 
 ## Device 1:
 During the creation of the project in PyCharm you can set up a virtual env through GUI or add it in the Project settings menu. If you are using something less user-friendly, e.x. text editors (or maybe even Vim and you know how to exit it) you can create a virtual environment on your own from scratch:
@@ -32,7 +32,7 @@ Just follow the steps 1-3 from Device 1 if you don't have venv already set up, t
 ```bash
 # Go to the project folder, activate venv, fetch the dependencies, deactivate venv
 cd project_folder
-source venv/bin/activate
+source venv/bin/activate # or . venv/bin/activate
 pip install -r requirements.txt
 deactivate
 ```
@@ -41,6 +41,8 @@ That should do the trick.
 ___
 
 ## P.S. If your life is not pathetic enough
+
+In case you encounter some roadblocks working you way through or you are just another a perfectionist or freak, which are the same at the core, these 
 Step number 2 may be a tricky part. If you invoke "virtualenv --version" and see command not found it doesn't necessarily mean that you haven't installed virtualenv, it may be installed for your user, not the root user or there is no alias for "virtualenv" command. Thus "virtualenv --version" doesn't return anything. If that bugs you...
 ```bash
 # You don't need this, unless you are a perfectionist or freak, which are the same at the core

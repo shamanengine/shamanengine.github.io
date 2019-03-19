@@ -1,12 +1,12 @@
 # How to move your Python project from one device to another.
 
-Let's assume you have created the project in your warm tube PyCharm (Device 1) on a laptop and you need to make it work somewhere else. In my case it was Raspberry Pi(Device 2), but the routine is the same for all other cases. 
+Let's assume you have created and developed Python project on Device 1 and you need to make it work somewhere else Device 2. In my case I have created a project in my warm tube PyCharm on a laptop and made it run on Raspberry Pi, but the routine is the same for all other cases. 
 
 ## Device 1:
-During the creation of the proect in PyCharm you can set up a virtual env through GUI during project creation/ Project settings menu. If you are using something else instead of PyCharm, e.x. text editors or else for your development, you can create virtual environment on your own from scratch:
+During the creation of the proect in PyCharm you can set up a virtual env through GUI or add it in Project settings menu. If you are using something less user-friendly, e.x. text editors (or maybe even Vim and you do know how to exit it) for your development you can create virtual environment on your own from scratch:
 ```bash
-# 1) Check that you have pip, it should have been installed with Python. Alternatively you can run pip3 everywhere instead of pip
-pip --version
+# 1) Check that you have pip, it should have been installed with Python. 
+pip --version # alternatively you can run pip3 everywhere instead of pip
 
 # 2) Run this to install virtualenv, either it will install virtualenv or notify that it is already installed
 pip install virtualenv
@@ -23,6 +23,7 @@ deactivate
 ```
 After these activities, you should see your requirements.txt file in project folder with all the dependencies. That's all for Device 1
 
+## If your life is not pathetic enough
 ```bash
 # == YOU DON'T NEED THIS, I WARNED YOU ==
 # 2.0) Check that you have installed virtualenv
@@ -47,7 +48,7 @@ sudo /usr/bin/easy_install virtualenv
 ```
 
 ## Device 2
-Just follow the steps 1-3 from Device 1 if you don't have venv already setup, than run below
+Just follow the steps 1-3 from Device 1 if you don't have venv already setup, then run below
 ```bash
 # Go to project folder, activate venv, fetch the dependencies, deactivate venv
 cd projectfolder

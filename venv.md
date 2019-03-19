@@ -57,6 +57,14 @@ sudo pip install virtualenv
 # 2.3) If previous step doesn't satisfy your needs, you can try this
 pip uninstall virtualenv
 sudo /usr/bin/easy_install virtualenv
+
+# 3.1) there is a chance that will run into something like this: python3 -m venv venv
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt-get install python3-venv
+
 ```
 
 *If do you want to contribute to your brain cancer development, even more, ~~welcome to the party~~*

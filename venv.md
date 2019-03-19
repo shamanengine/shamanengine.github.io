@@ -28,7 +28,7 @@ deactivate
 Now you should see your requirements.txt file in project folder with all the dependencies. That's all for Device 1
 
 ## Device 2
-Just follow the steps 1-3 from device_1 if you don't have venv already set up, then run below
+Just follow the steps 1-3 from Device 1 if you don't have venv already set up, then run below:
 ```bash
 # Go to the project folder, activate venv, fetch the dependencies, deactivate venv
 cd project_folder

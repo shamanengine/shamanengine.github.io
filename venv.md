@@ -17,7 +17,7 @@ pip install virtualenv
 
 # 3) Go to your project folder and create a venv instance
 cd project_folder
-pip -m venv venv # alternatively you can use >>> virtualenv venv
+python3 -m venv venv # alternatively you can use >>> virtualenv venv
 tree -L 3 # just to check the structure
 
 # 4) Activate your venv, make a snapshot of dependencies, deactivate the env

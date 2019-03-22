@@ -2,8 +2,8 @@
 Raspberry Pi in general and Zero W don't have that much horsepower to run a heavy-weight web-server, so you may want to make your set up as optimal as possible.
 
 ## Installing Raspbian Lite
-Raspbian Lite is pretty much Debian core + drivers + pretty generic software for Raspberry to run. That's it. No GUI, no office suite, no browser. This is very useful when you want to run a web-server, and just use log-console.
-1. ~~Go here and buy Raspberry https://botland.com.pl/pl/399-raspberry-pi ~~I am not getting payed by then, just like what folks do
+Raspbian Lite is as much as Debian core + drivers + pretty generic software for Raspberry to run. That's it. No GUI, no office suite, no browser. This is very useful when you want to run a web-server, and just use log-console.
+1. ~~Go here and buy Raspberry https://botland.com.pl/pl/399-raspberry-pi~~ I am not getting payed by then, just like what folks do
 2. Go here and Download Raspbian Light image https://www.raspberrypi.org/downloads/raspbian/
 3. Go here and download Etcher - easy to use tool to write images to your flash https://www.balena.io/etcher/ FYI, you can't just copy the .img file to the flash, you do need to use specific tool like Etcher to "burn" image to flash.
 4. Plug your flash and launch Raspberry. Upon prompt type defauld 
@@ -31,8 +31,10 @@ git --version  # to check the instalation
 ```
 
 ## Kicking off the Server
-8. Most probbably without this library your app-server won't kick-start
+1. Most probbably without this library your app-server won't kick-start
 ```sudo apt-get install libatlas-base-dev```
+2. 
+```git clone https://github.com/shamanengine/shamanengine.github.io.git```
 
 To check that everything is fine:
 ```

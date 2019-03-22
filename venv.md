@@ -9,11 +9,14 @@ The routine is the same for all other cases.
 ## Device 1:
 During the creation of the project in PyCharm you can set up a virtual env through GUI or add it in the Project settings menu. If you are using something less user-friendly, e.x. text editors (or maybe even Vim and you know how to exit it) you can create a virtual environment on your own from scratch:
 ```bash
-# 1) Check that you have pip, it should have been installed with Python. 
+# 1) Check that you have pip, it should have been installed with Python. If not, see 1.1)
 pip --version # alternatively you can run pip3 everywhere instead of pip
 
 # 2) Install virtualenv, either it will install venv or notify that it is already installed
 pip install virtualenv
+
+# 1.1) Alternatively if you don't have pip, or like doing things from your standard console
+sudo apt-get install python3-venv python3-pip
 
 # 3) Go to your project folder and create a venv instance
 cd project_folder

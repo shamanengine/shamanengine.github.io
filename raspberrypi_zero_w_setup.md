@@ -1,5 +1,5 @@
 # How to set up Raspberry Pi Zero W as a Web server
-Raspberry Pi in general and Zero W don't have that much horsepower to run a heavy-weight web-server, so you may want to make your set up as optimal as possible
+Raspberry Pi in general and Zero W don't have that much horsepower to run a heavy-weight web server, so you may want to make your set up as optimal as possible
 
 ## Installing Raspbian Lite
 Raspbian Lite is not much more than Debian core + drivers + pretty generic software for Raspberry to run. That's it. No GUI, no office suite, no browser. This is very useful when you want to spare resources, and just use log-console as output

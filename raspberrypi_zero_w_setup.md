@@ -4,9 +4,9 @@ Raspberry Pi in general and Zero W don't have that much horsepower to run a heav
 ## Installing Raspbian Lite
 Raspbian Lite is not much more than Debian core + drivers + pretty generic software for Raspberry to run. That's it. No GUI, no office suite, no browser. This is very useful when you want to spare resources, and just use log-console as output
 
-1. Download [Raspbian Light image] (https://www.raspberrypi.org/downloads/raspbian/)
+1. Download [Raspbian Light image](https://www.raspberrypi.org/downloads/raspbian/)
 
-2. Download [Etcher] (https://www.balena.io/etcher/) and flash the image to SD card. Eatcher is an easy to use tool to write images to your flash. FYI, you can't just copy the .img file to the card, you do need to use specific tool like Etcher to "burn" the image to an SD card.
+2. Download [Etcher](https://www.balena.io/etcher/) and flash the image to SD card. Eatcher is an easy to use tool to write images to your flash. FYI, you can't just copy the .img file to the card, you do need to use specific tool like Etcher to "burn" the image to an SD card.
 
 3. Plug your SD and launch Raspberry. Upon prompt type default Raspberry credentials:
 - Login: pi
@@ -31,6 +31,7 @@ sudo apt-get upgrade
 ```
 
 ## Kicking off the Server
+
 1. Install git
 ```bash
 sudo apt-get install git
@@ -52,6 +53,7 @@ source venv/bin/activate # or . venv/bin/activate
 pip install -r requirements.txt
 deactivate
 ```
+
 For more details on this step you can follow this article [How to move Python project from one device to another] (https://github.com/shamanengine/shamanengine.github.io/blob/master/venv.md#how-to-move-python-project-from-one-device-to-another)
 
 4. Make your server run while virtual environment is activated, usually it's something like this:

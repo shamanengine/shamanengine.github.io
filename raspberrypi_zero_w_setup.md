@@ -1,4 +1,4 @@
-# How to set up Raspberry Pi Zero W as a SOAP web-server
+# How to set up Raspberry Pi Zero W as a Web server
 Raspberry Pi in general and Zero W don't have that much horsepower to run a heavy-weight web-server, so you may want to make your set up as optimal as possible
 
 ## Installing Raspbian Lite
@@ -42,10 +42,10 @@ git --version  # to check the instalation
 ```bash
 mkdir code  # where "code" is your folder for projects
 cd code
-git clone https://github.com/your_github_user/your_github_repository.git
+git clone https://github.com/github_user/github_repository.git
 ```
 
-3. # Go to the project folder, install and activate virtual environment, fetch the dependencies, deactivate the environment
+3. Go to the project folder, install and activate virtual environment, fetch the dependencies, deactivate the environment
 ```bash
 cd project_folder
 python3 -m venv venv # alternatively you can use >>> virtualenv venv
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 deactivate
 ```
 
-For more details on this step you can follow this article [How to move Python project from one device to another] (https://github.com/shamanengine/shamanengine.github.io/blob/master/venv.md#how-to-move-python-project-from-one-device-to-another)
+For more details on this step you can follow this article [How to move Python project from one device to another](https://github.com/shamanengine/shamanengine.github.io/blob/master/venv.md#how-to-move-python-project-from-one-device-to-another)
 
 4. Make your server run while virtual environment is activated, usually it's something like this:
 ```bash

@@ -8,6 +8,12 @@ N   | Topic | Link
 4   | How To Find My Public IP Address From Command Line On a Linux | https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/
 5   | 
 
+## Bash
+N   | Topic | Link
+---:| ---   | ---
+1   | Understanding Shell Script's idiom: 2>&1 | https://www.brianstorti.com/understanding-shell-script-idiom-redirect/
+2   | 
+
 ## Raspberry
 N   | Topic | Link
 ---:| ---   | ---
@@ -16,6 +22,8 @@ N   | Topic | Link
 3   | Getting started with Git | https://projects.raspberrypi.org/en/projects/getting-started-with-git/
 4   | Etcher - image flashing | https://www.balena.io/etcher/
 5   | GPIO | https://conoroneill.net/2013/06/05/connecting-an-arduino-to-raspberry-pi-for-the-best-of-both-worlds/, https://www.instructables.com/id/Read-and-write-from-serial-port-with-Raspberry-Pi/
+6   | Launch-Python-script-on-startup | https://www.instructables.com/id/Raspberry-Pi-Launch-Python-script-on-startup/
+7   | 
 
 ## Soldering
 - https://www.youtube.com/watch?v=DPBYIZdK0Wo

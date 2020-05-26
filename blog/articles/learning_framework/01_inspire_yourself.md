@@ -1,0 +1,9 @@
+# Learning Framework
+
+## Step 0 - Inspire yourself
+
+This is the simplest but most important part when starting something, yet many people have the tendency to neglect it. Turning their study/ work/ training process into a grueling row across oceans of misserablity.  Once a friend of mine told me super obvious thing: "I try to do what I want, and don't do anything I don't want to". This is a great approach, but there is a catch, sometimes there are things that you "need" to do. So how should one approach such situations? The answer is easy - fall in love with the god damn thing +)
+
+In any piece of work, study routine or physical training there are multiple aspects. Some of them are positive, some not. If the endeavor that lies before you is beneficial for your future most probably it is challenging, but it for sure should contain positive as well. Your task is to learn these different sides of the job and emphasize and multiply positive ones, keeping in mind, controlling but not dedicating too much time and your inner energy to negative ones. For example, when learning new programming language think about what cool things you can create with it, how many amazing people are already working in this area, how much you can learn from them. How you can make new friends, share your ideas, provide your input - "reflect your inner world" in the code and share it with others, project your ideas through code and convey your message to others. This is just one of many sides of this deed, I am pretty sure you will find the one that fits you the most.
+
+I wish the best of luck in your endeavors my friend and remember you can achieve without inspiration the same things you can while being inspired. But if you are passionate about what you do you'll experience satisfaction both at the destination point and throughout your path. Being uninspired on the contrary you will butcher the latter one and you will row miserably.
